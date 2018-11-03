@@ -7,6 +7,16 @@ body {
     background-color: #333333;
 }
 
+.jumbotron {
+    border-left: 2px solid #c82333;
+    border-right: 2px solid #c82333;
+    border-bottom: 2px solid #c82333;
+}
+
+.card {
+    border: 2px solid #c82333;
+}
+
 .create-form {
     margin-top: 40px;
 }
@@ -19,9 +29,14 @@ body {
 #jumbo-title {
     font-family: 'Rock Salt', cursive;
     color: #333333;
+    letter-spacing: 8px;
 }
 
 #burger-submit-button {
     margin-bottom: 30px;
     font-family: 'Open Sans', sans-serif;
+}
+
+#burger-input {
+    border: 2px solid #c82333;
 }

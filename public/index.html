@@ -57,7 +57,7 @@
                         <div class="form-group">
                             <input type="text" class="form-control content-text" id="burger-input" placeholder="Enter name of burger you would like to add">
                         </div>
-                        <button type="submit" class="btn btn-primary btn-block" id="burger-submit-button">Submit</button>
+                        <button type="submit" class="btn btn-danger btn-block" id="burger-submit-button">Submit</button>
                     </form>
                 </div>
             </div>
@@ -69,7 +69,7 @@
             {{burger_name}}
 
             {{#unless devoured}}
-                <button type="button" class="change-devoured btn btn-danger" data-id="{{id}}">Devour</button>
+                <button type="button" class="change-devoured btn btn-danger float-right" data-id="{{id}}">Devour</button>
             {{/unless}}
         </li>
     </script>
