@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url(../images/congruent_outline.png);
+    background-color: #333333;
+}
+
+.create-form {
+    margin-top: 40px;
+}
+
+.content-text {
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+}
+
+#jumbo-title {
+    font-family: 'Rock Salt', cursive;
+    color: #333333;
+}
+
+#burger-submit-button {
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
