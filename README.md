@@ -4,3 +4,6 @@ Burger Devourer is a fun and interactive application that allows users to add bu
 
 The application is made using Node.js, MySQL, Bootstrap CSS, and jQuery. The application features an ORM which performs the MySQL queries. 
 
+A link to the live version of the application is found here:
+
+https://burger-devourer-1.herokuapp.com/
