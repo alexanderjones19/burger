@@ -40,18 +40,20 @@ function setupEventHandlers() {
   
     $(document).on('submit', '.create-form', function(event) {
       event.preventDefault();
-  
-      var newBurger = {
-        burger_name: $('#burger-input').val().trim(),
-      };
-  
-      $.ajax('/api/burgers', {
-        type: 'POST',
-        data: newBurger
-      }).then(
-        function() {
-          displayPage();
-        }
-      );
+    
+      if ($('#burger-input').val().trim() != '') {
+        var newBurger = {
+            burger_name: $('#burger-input').val().trim(),
+          };
+      
+          $.ajax('/api/burgers', {
+            type: 'POST',
+            data: newBurger
+          }).then(
+            function() {
+              displayPage();
+            }
+          );
+      }
     });
 };
